@@ -17,7 +17,6 @@
 		DB3F596629533E73000D1E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3F596429533E73000D1E89 /* LaunchScreen.storyboard */; };
 		DB3F597129533E73000D1E89 /* Notes_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F597029533E73000D1E89 /* Notes_AppTests.swift */; };
 		DB3F597B29533E73000D1E89 /* Notes_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F597A29533E73000D1E89 /* Notes_AppUITests.swift */; };
-		DB3F597D29533E73000D1E89 /* Notes_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F597C29533E73000D1E89 /* Notes_AppUITestsLaunchTests.swift */; };
 		DB3F598B29535B38000D1E89 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F598A29535B38000D1E89 /* DataModel.swift */; };
 		DB3F599729536508000D1E89 /* NoteItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3F599529536508000D1E89 /* NoteItemTableViewCell.swift */; };
 		DB3F599829536508000D1E89 /* NoteItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3F599629536508000D1E89 /* NoteItemTableViewCell.xib */; };
@@ -65,7 +64,6 @@
 		DB3F597029533E73000D1E89 /* Notes_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_AppTests.swift; sourceTree = "<group>"; };
 		DB3F597629533E73000D1E89 /* Notes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3F597A29533E73000D1E89 /* Notes_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_AppUITests.swift; sourceTree = "<group>"; };
-		DB3F597C29533E73000D1E89 /* Notes_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB3F598A29535B38000D1E89 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		DB3F599529536508000D1E89 /* NoteItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemTableViewCell.swift; sourceTree = "<group>"; };
 		DB3F599629536508000D1E89 /* NoteItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteItemTableViewCell.xib; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				DB3F597A29533E73000D1E89 /* Notes_AppUITests.swift */,
-				DB3F597C29533E73000D1E89 /* Notes_AppUITestsLaunchTests.swift */,
 			);
 			path = "Notes AppUITests";
 			sourceTree = "<group>";
@@ -430,7 +427,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3F597D29533E73000D1E89 /* Notes_AppUITestsLaunchTests.swift in Sources */,
 				DB3F597B29533E73000D1E89 /* Notes_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

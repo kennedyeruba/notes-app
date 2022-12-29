@@ -45,19 +45,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="VmE-aw-i7A">
-                                <rect key="frame" x="230.33333333333334" y="10" width="96.666666666666657" height="15"/>
+                                <rect key="frame" x="237" y="10" width="90" height="18"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.badge" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="j35-gD-Jny">
-                                        <rect key="frame" x="0.0" y="0.66666666666666607" width="20" height="14"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="j35-gD-Jny">
+                                        <rect key="frame" x="0.0" y="0.99999999999999822" width="18" height="16.666666666666664"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="HDQ-jp-RQf"/>
-                                            <constraint firstAttribute="height" constant="15" id="q7z-wB-ahg"/>
+                                            <constraint firstAttribute="width" constant="18" id="HDQ-jp-RQf"/>
+                                            <constraint firstAttribute="height" constant="18" id="q7z-wB-ahg"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02/09/2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kp9-7T-Rw1">
-                                        <rect key="frame" x="22.999999999999972" y="0.0" width="73.666666666666671" height="15"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
-                                        <color key="textColor" systemColor="linkColor"/>
+                                        <rect key="frame" x="21" y="0.0" width="69" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="11"/>
+                                        <color key="textColor" red="0.12122529930000001" green="0.12122529930000001" blue="0.12122529930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -136,7 +136,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="clock.badge" catalog="system" width="128" height="123"/>
+        <image name="clock.circle" catalog="system" width="128" height="123"/>
         <image name="note.text" catalog="system" width="128" height="107"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

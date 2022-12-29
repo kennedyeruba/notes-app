@@ -18,6 +18,7 @@ class NotesListViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		self.notesTableView.accessibilityIdentifier = "NotesTable"
 		viewModel.retrieveNotes()
 			.sink { completion in
 				guard case .failure(_) = completion else { return }
